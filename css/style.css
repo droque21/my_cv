@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #929292;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.curriculum{
+    background-color: white;
+    margin: 25px;
+    border: black 2px solid;
+    border-radius: 4px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.foto{
+    margin: 5px;
+    border: black 1px solid;
+}
+
+.nombre{
+    text-align: center;
+}
+
+.datos{
+    border: 1px black solid;
+    margin: 5px;
+}
+.datos iframe{
+    display: block;
+    width: 100%;
+    height: 750px;
+}
+
+.peliculas{
+    text-align: center;
+}
+
+.peliculas img{
+    width: 90%;
+    height: 200px;
+    margin-bottom: 5px;
+    border: rgba(0, 0, 0, 0.5) 1px solid;
+}
+.f-row{
+    margin-top: 5px;
+}
+legend{
+    width: auto;
+    display: inline;
+    margin-left: 10px;
+}
+
+
+@media (min-width: 767px){
+    .peliculas img{
+        height: 250px;
+    }
+}
+
+@media (min-width: 991px){
+    .peliculas img{
+        height: 350px;
+    }
+}
